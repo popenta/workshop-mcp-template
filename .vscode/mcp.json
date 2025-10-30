@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "multiversx-mcp": {
+        "type": "stdio",
+        "command": "node",
+        "args": ["./build/index.js"],
+        "env": {
+          "MVX_WALLET": ""
+        }
+    }
+  }
+}
