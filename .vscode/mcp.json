@@ -5,7 +5,8 @@
         "command": "node",
         "args": ["./build/index.js"],
         "env": {
-          "MVX_WALLET": ""
+          "MVX_WALLET": "",
+          "MVX_WALLET_PASSWORD": ""
         }
     }
   }
