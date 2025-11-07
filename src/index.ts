@@ -2,7 +2,8 @@
 
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { Address, DevnetEntrypoint } from '@multiversx/sdk-core/';
+import { Address, DevnetEntrypoint } from '@multiversx/sdk-core';
+import { BigNumber } from 'bignumber.js';
 import z from 'zod';
 import { denominateEgldValue, loadAccountFromEnv } from './utils.js';
 
